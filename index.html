@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Gopal Mankar — Computer science student at JNCT and data science student at IIT Madras, pursuing two degrees concurrently.">
+  <meta name="author" content="Gopal Mankar">
+  <title>Gopal Mankar | Computer Science &amp; Data Science Student</title>
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230F766E'/><text x='16' y='21' font-family='sans-serif' font-size='14' font-weight='700' fill='white' text-anchor='middle'>GM</text></svg>">
+
+  <!-- Typography: Inter + JetBrains Mono with robust system fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet: Dark Developer Theme -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation Bar (Pure CSS, Semantic, Compact Row on Mobile) -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="Gopal Mankar Home">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Gopal<span class="accent-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-wrapper">
+        <a href="https://www.linkedin.com/in/gopal-mankar25519821/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          LinkedIn
+          <svg class="external-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          <span class="sr-only">(opens in new tab)</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-progress-bar" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section (Two-Column Layout with Static Code Card) -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-indicator"></span>
+            <span class="badge-text">Pursuing Two Degrees Concurrently &bull; JNCT &amp; IIT Madras</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Gopal Mankar</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            Computer science and data science student building practical projects.<span class="terminal-cursor" aria-hidden="true">_</span>
+          </p>
+
+          <p class="hero-description">
+            Pursuing a <strong>B.Tech in Computer Science Engineering</strong> at JNCT (Bhopal) and a <strong>BS in Data Science and Applications</strong> from IIT Madras concurrently. Interested in software engineering, full-stack development, and AI/ML.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+
+          <!-- Concurrent Education Summary Strip -->
+          <div class="hero-study-strip">
+            <div class="study-item">
+              <span class="study-label">Engineering Degree</span>
+              <span class="study-degree">B.Tech in Computer Science Engineering</span>
+              <span class="study-institution">JNCT, Bhopal</span>
+            </div>
+            <div class="study-divider" aria-hidden="true"></div>
+            <div class="study-item">
+              <span class="study-label">Concurrent Degree</span>
+              <span class="study-degree">BS in Data Science and Applications</span>
+              <span class="study-institution">IIT Madras</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Static Code Card Column -->
+        <div class="hero-code-wrapper">
+          <div class="hero-code-card" aria-label="Developer profile code snippet">
+            <div class="code-card-header">
+              <div class="code-dots" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="code-filename">profile.yml</span>
+            </div>
+            <pre><code><span class="code-line"><span class="code-key">developer</span>:</span><span class="code-line">  <span class="code-key">name</span>: <span class="code-str">"Gopal Mankar"</span></span><span class="code-line">  <span class="code-key">education</span>:</span><span class="code-line">    - <span class="code-str">"B.Tech CSE @ JNCT (Bhopal)"</span></span><span class="code-line">    - <span class="code-str">"BS Data Science @ IIT Madras"</span></span><span class="code-line">  <span class="code-key">concurrent_degrees</span>: <span class="code-bool">true</span></span><span class="code-line">  <span class="code-key">focus</span>:</span><span class="code-line">    - <span class="code-str">"Software Engineering"</span></span><span class="code-line">    - <span class="code-str">"Full-Stack Development"</span></span><span class="code-line">    - <span class="code-str">"AI / ML &amp; Data Science"</span></span><span class="code-line">  <span class="code-key">exposure</span>: [<span class="code-val">React</span>, <span class="code-val">TypeScript</span>, <span class="code-val">Tailwind</span>, <span class="code-val">Gemini API</span>]</span><span class="code-line">  <span class="code-key">learning</span>: [<span class="code-val">DSA</span>, <span class="code-val">full-stack</span>, <span class="code-val">Python</span>, <span class="code-val">AI/ML</span>]</span><span class="code-line">  <span class="code-key">status</span>: <span class="code-str">"open to internships"</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/profile</span>
+          <h2 class="section-title">About Gopal Mankar</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Narrative in README.md Editor Card -->
+          <div class="about-editor-card">
+            <div class="editor-tab-header">
+              <div class="editor-tab-title">
+                <svg class="file-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span class="tab-filename">README.md</span>
+              </div>
+            </div>
+            <div class="about-text-column">
+              <p class="about-lead">
+                Combining foundational computer science with mathematics and data science to build practical software solutions.
+              </p>
+              <p>
+                I am an undergraduate student pursuing two degrees concurrently. My engineering studies at <strong>Jai Narain College of Technology (JNCT)</strong> in Bhopal develop my grounding in programming, software engineering, and core computer science fundamentals.
+              </p>
+              <p>
+                Simultaneously, through the <strong>BS in Data Science and Applications from IIT Madras</strong>, I pursue rigorous Python-based learning, statistics, mathematics, and foundational data analysis.
+              </p>
+              <p>
+                My technical interests include <strong>Software Engineering</strong>, <strong>Full-Stack Development</strong>, <strong>AI</strong>, <strong>ML</strong>, and <strong>Data Science</strong>. I focus on writing clear code, applying structured problem solving, and exploring practical technology.
+              </p>
+
+              <div class="focus-pill-group">
+                <span class="focus-pill">Software Engineering</span>
+                <span class="focus-pill">Full-Stack Development</span>
+                <span class="focus-pill">AI &amp; Machine Learning</span>
+                <span class="focus-pill">Data Science</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Academic Cards -->
+          <div class="about-cards-column">
+            <div class="profile-card">
+              <div class="card-icon-tag">Programme 01</div>
+              <h3 class="card-degree-title">B.Tech in Computer Science Engineering</h3>
+              <p class="card-institution">JNCT (Jai Narain College of Technology, Bhopal)</p>
+              <ul class="card-highlights" role="list">
+                <li>Programming in C, C++ and Python</li>
+                <li>Strengthening DSA and core CS fundamentals</li>
+                <li>Event management team member, E-Cell JNCT</li>
+              </ul>
+            </div>
+
+            <div class="profile-card highlight-border">
+              <div class="card-icon-tag tag-accent">Programme 02</div>
+              <h3 class="card-degree-title">BS in Data Science and Applications</h3>
+              <p class="card-institution">IIT Madras (Indian Institute of Technology Madras)</p>
+              <ul class="card-highlights" role="list">
+                <li>Python-based data science learning</li>
+                <li>Statistics and mathematics</li>
+                <li>Data analysis fundamentals</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section (Package-Manifest Panel) -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/skills</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Core technologies, practical tools, and active learning areas based on coursework and projects.
+            <span class="subtitle-note">Note: Web frameworks and tools reflect practical project exposure, not expert-level proficiency.</span>
+          </p>
+          <div class="section-underline"></div>
+        </div>
+
+        <!-- Manifest Panel -->
+        <div class="stack-manifest-bar">
+          <div class="manifest-header">
+            <svg class="file-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <span class="manifest-filename">stack.txt</span>
+          </div>
+          <div class="manifest-body">
+            <code>exposure: React, TypeScript, Tailwind CSS, Gemini API</code>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Programming -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// programming</h3>
+            </div>
+            <p class="category-desc">Core languages used for problem solving and analytical programs.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Python</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: Web Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// web</h3>
+            </div>
+            <p class="category-desc">Practical exposure through projects and interface rebuilding tasks.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: AI & Machine Learning -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// ai-ml</h3>
+            </div>
+            <p class="category-desc">Foundational methods, supervised learning, and API-assisted workflows.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Google Gemini API integration</span>
+              <span class="skill-tag">AI-assisted classification</span>
+              <span class="skill-tag">ML fundamentals</span>
+              <span class="skill-tag">Supervised learning</span>
+              <span class="skill-tag">Regression</span>
+              <span class="skill-tag">Classification</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 4: Data Science -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// data-science</h3>
+            </div>
+            <p class="category-desc">Analytical foundations studied through the IIT Madras curriculum.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Python-based learning</span>
+              <span class="skill-tag">Statistics</span>
+              <span class="skill-tag">Mathematics</span>
+              <span class="skill-tag">Data analysis fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 5: Tools & Platforms -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// tools</h3>
+            </div>
+            <p class="category-desc">Development environments, design tools, and spatial mapping libraries.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Leaflet</span>
+              <span class="skill-tag">Google Cloud-related project planning</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 6: Currently Learning -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// currently-learning</h3>
+            </div>
+            <p class="category-desc">Active areas of ongoing academic study and technical focus.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">DSA</span>
+              <span class="skill-tag">Full-stack development</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">AI/ML</span>
+              <span class="skill-tag">Core CS fundamentals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (3 Honest Project Cards) -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/projects</span>
+          <h2 class="section-title">Projects &amp; Concepts</h2>
+          <p class="section-subtitle">Technical concepts and prototype proposals developed for hackathons and academic events.</p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CivicSentinel AI (Featured Repo Card with Concept Diagram) -->
+          <article class="project-card project-card-featured">
+            <div class="project-featured-content">
+              <div class="project-card-header">
+                <div class="project-meta">
+                  <div class="repo-meta-title">
+                    <svg class="repo-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3 class="project-title">CivicSentinel AI</h3>
+                  </div>
+                  <span class="status-pill status-concept">Concept</span>
+                </div>
+                <p class="project-tagline">AI-assisted civic issue reporting concept made for Vibe2Ship Hackathon 2026</p>
+              </div>
+
+              <div class="project-body">
+                <p class="project-summary">
+                  A concept proposal for AI-assisted reporting of municipal civic concerns, covering potholes, road damage, garbage accumulation, water leakage, and broken streetlights.
+                </p>
+
+                <div class="project-highlights-box">
+                  <h4 class="box-title">What it explores</h4>
+                  <ul class="box-list" role="list">
+                    <li>AI-assisted issue classification and automated report descriptions</li>
+                    <li>Severity assessment and duplicate-report detection concepts</li>
+                    <li>Community verification workflows and map-based visualization</li>
+                  </ul>
+                </div>
+
+                <div class="project-tech-group">
+                  <span class="tech-group-label">Technologies discussed:</span>
+                  <div class="project-tech-stack">
+                    <span class="tech-tag">Civic Tech</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Google Gemini API</span>
+                    <span class="tech-tag">Leaflet</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card-footer">
+                <span class="repo-footer-text">status: concept &bull; made for Vibe2Ship Hackathon 2026</span>
+              </div>
+            </div>
+
+            <!-- Concept Modules Diagram (Pure HTML/CSS, Accessible) -->
+            <div class="project-featured-diagram" role="img" aria-label="Concept diagram showing CivicSentinel AI connected to 7 planned modules: issue reporting, AI-assisted classification, severity assessment, report descriptions, duplicate-report detection, community verification, and map-based visualization.">
+              <div class="diagram-header">
+                <span class="diagram-tag">Architecture Concept</span>
+                <h4 class="diagram-title">Concept modules (planned, not implemented)</h4>
+              </div>
+              <div class="concept-tree">
+                <div class="concept-center-node">
+                  <span class="node-icon">&lt;/&gt;</span>
+                  <span class="node-title">CivicSentinel AI</span>
+                  <span class="node-subtitle">Central Concept Hub</span>
+                </div>
+                <div class="concept-connector-spine" aria-hidden="true"></div>
+                <div class="concept-modules-grid">
+                  <div class="concept-module-box">Issue reporting</div>
+                  <div class="concept-module-box">AI-assisted classification</div>
+                  <div class="concept-module-box">Severity assessment</div>
+                  <div class="concept-module-box">Report descriptions</div>
+                  <div class="concept-module-box">Duplicate-report detection</div>
+                  <div class="concept-module-box">Community verification</div>
+                  <div class="concept-module-box">Map-based visualization</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AI-Based Delivery Route Optimization System -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <div class="repo-meta-title">
+                  <svg class="repo-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  <h3 class="project-title">AI-Based Delivery Route Optimization System</h3>
+                </div>
+                <span class="status-pill status-concept">Concept</span>
+              </div>
+              <p class="project-tagline">Prototype/PPT-based concept made for JNCT Tech Hunt – AI RapidSolve</p>
+            </div>
+
+            <div class="project-body">
+              <p class="project-summary">
+                A prototype/presentation-based concept on AI-assisted delivery route optimization, prepared for JNCT Tech Hunt – AI RapidSolve.
+              </p>
+
+              <div class="project-highlights-box">
+                <h4 class="box-title">What it explores</h4>
+                <ul class="box-list" role="list">
+                  <li>AI-assisted approach to delivery route optimization</li>
+                  <li>Presented as a prototype/PPT concept at an AI-focused college event</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-group">
+                <span class="tech-group-label">Topics:</span>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Logistics &amp; AI</span>
+                  <span class="tech-tag">Route Optimization</span>
+                  <span class="tech-tag">Prototype Concept</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="repo-footer-text">status: concept &bull; made for JNCT Tech Hunt – AI RapidSolve</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Student Productivity Hub -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <div class="repo-meta-title">
+                  <svg class="repo-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  <h3 class="project-title">Student Productivity Hub</h3>
+                </div>
+                <span class="status-pill status-planned">Planned concept</span>
+              </div>
+              <p class="project-tagline">Student-focused productivity project idea</p>
+            </div>
+
+            <div class="project-body">
+              <p class="project-summary">
+                A planned project concept for students. Not implemented.
+              </p>
+
+              <div class="project-highlights-box">
+                <h4 class="box-title">Proposed features</h4>
+                <ul class="box-list" role="list">
+                  <li>Task management</li>
+                  <li>Study planning</li>
+                  <li>Dashboard</li>
+                  <li>AI notes summarization</li>
+                  <li>Quiz generation</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-group">
+                <span class="tech-group-label">Topics:</span>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Productivity UI</span>
+                  <span class="tech-tag">Academic Workspace</span>
+                  <span class="tech-tag">Planned Concept</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="repo-footer-text">status: planned &bull; student-focused productivity project idea</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (Internship, College Experience, Hackathons, Certification) -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/experience</span>
+          <h2 class="section-title">Experience &amp; Technical Activities</h2>
+          <p class="section-subtitle">
+            Internship work, college technical society involvement, and hackathon participation.
+            <span class="subtitle-note">Note: Hackathons are listed as participation only, with no wins or rankings claimed.</span>
+          </p>
+          <div class="section-underline"></div>
+        </div>
+
+        <!-- Facts Strip -->
+        <div class="experience-facts-strip">
+          4 hackathons / events entered &bull; 3 project concepts &bull; 1 internship &bull; 1 completed course
+        </div>
+
+        <!-- Vertical Timeline for Internship & College Experience -->
+        <div class="experience-timeline">
+          <!-- Internship Timeline Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="profile-card timeline-card">
+              <div class="card-icon-tag tag-accent">Internship</div>
+              <h3 class="card-degree-title">AI Web Development Intern</h3>
+              <p class="card-institution">InAmigos Foundation &bull; 8 May 2026 – 22 May 2026</p>
+              <ul class="card-highlights" role="list">
+                <li>Worked on portfolio and AI-themed website development tasks</li>
+                <li>Analyzed existing websites and interfaces, recreating layouts from visual references</li>
+                <li>Explored UI/UX and web page layout structures in Figma</li>
+                <li>Completed assigned web development tasks</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- College Experience Timeline Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="profile-card timeline-card">
+              <div class="card-icon-tag">College Society</div>
+              <h3 class="card-degree-title">Event Management Team Member</h3>
+              <p class="card-institution">E-Cell, JNCT (Jai Narain College of Technology, Bhopal)</p>
+              <ul class="card-highlights" role="list">
+                <li>Participated in student entrepreneurship cell event management activities</li>
+                <li>Contributed to event coordination and presentation work</li>
+                <li>Helped prepare the final two slides for the Business Buzz 3.0 / Campus Bug Bounty (BugSquad) presentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hackathons Sub-section -->
+        <div class="experience-subsection">
+          <h3 class="experience-subheading">Hackathons &amp; Technical Events</h3>
+          <p class="experience-subnote">All events listed represent competition participation at the specified stage only, with no wins, rankings, or finalist selections claimed.</p>
+
+          <div class="table-responsive-wrapper">
+            <table class="hackathon-table">
+              <caption class="sr-only">Hackathon Participation and Technical Submissions</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Event</th>
+                  <th scope="col">Organizer</th>
+                  <th scope="col">What I did</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Event" class="cell-event">Coding Ninjas &times; Google for Developers Vibe2Ship Hackathon 2026</td>
+                  <td data-label="Organizer" class="cell-organizer">Coding Ninjas &times; Google for Developers</td>
+                  <td data-label="What I did" class="cell-action">Participated with CivicSentinel AI; participation certificate received.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">WhyCode4U &times; IIT Guwahati BUILD SOMETHING Hackathon 2026</td>
+                  <td data-label="Organizer" class="cell-organizer">WhyCode4U &times; IIT Guwahati</td>
+                  <td data-label="What I did" class="cell-action">Submitted a PPT for the initial screening round.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">VJ Hackathon 2026 (VJH 2026)</td>
+                  <td data-label="Organizer" class="cell-organizer">VNR VJIET, Hyderabad (via Unstop)</td>
+                  <td data-label="What I did" class="cell-action">Agriculture (AG) domain; submitted a PPT for the initial screening round.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">JNCT Tech Hunt – AI RapidSolve</td>
+                  <td data-label="Organizer" class="cell-organizer">JNCT</td>
+                  <td data-label="What I did" class="cell-action">Prototype/PPT work on AI-Based Delivery Route Optimization System.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Courses & Certifications Sub-section -->
+        <div class="experience-subsection">
+          <h3 class="experience-subheading">Courses &amp; Certifications</h3>
+          <div class="certifications-wrapper">
+            <div class="profile-card highlight-border">
+              <div class="card-icon-tag tag-accent">Certification &bull; Completed</div>
+              <h4 class="card-degree-title">Supervised Machine Learning: Regression and Classification</h4>
+              <p class="card-institution">Andrew Ng's course on Coursera</p>
+              <p class="cert-summary">Covers supervised learning, regression, and classification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (contact.md Editor Card) -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/contact</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Interested in discussing software engineering, internships, or academic collaboration? Reach out directly.</p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="contact-card-centered contact-editor-card">
+          <div class="editor-tab-header">
+            <div class="editor-tab-title">
+              <svg class="file-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              <span class="tab-filename">contact.md</span>
+            </div>
+          </div>
+
+          <div class="contact-editor-body">
+            <h3 class="contact-card-title">Professional Coordinates</h3>
+            <p class="contact-card-desc">
+              I am open to software engineering and data science internship opportunities where I can apply my concurrent computer science and data science studies to practical engineering projects.
+            </p>
+
+            <div class="contact-channels-list">
+              <!-- LinkedIn (Verified Direct Contact Channel) -->
+              <a href="https://www.linkedin.com/in/gopal-mankar25519821/" target="_blank" rel="noopener noreferrer" class="channel-item channel-item-active">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">linkedin:</span>
+                  <span class="channel-value">linkedin.com/in/gopal-mankar25519821</span>
+                  <span class="channel-hint">Connect and message directly on LinkedIn &rarr;</span>
+                </div>
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+
+              <!-- Academic Institutions Info -->
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">institutions:</span>
+                  <span class="channel-value">JNCT, Bhopal &bull; IIT Madras</span>
+                  <span class="channel-hint">B.Tech in CSE &amp; BS in Data Science and Applications</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer with Editor Status Bar -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" aria-label="Gopal Mankar Home">
+            <span class="logo-symbol">&lt;/&gt;</span>
+            <span class="logo-text">Gopal<span class="accent-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            Student pursuing B.Tech in CSE at JNCT and BS in Data Science &amp; Applications from IIT Madras concurrently.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <span class="footer-heading">Navigation</span>
+          <ul class="footer-links" role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <span class="footer-heading">Connect</span>
+          <ul class="footer-links" role="list">
+            <li>
+              <a href="https://www.linkedin.com/in/gopal-mankar25519821/" target="_blank" rel="noopener noreferrer">
+                LinkedIn Profile &nearr;
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">Contact Information</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editor Status Bar Strip -->
+    <div class="editor-status-bar">
+      <div class="container status-bar-container">
+        <div class="status-left">
+          <span class="status-item"><span class="status-dot-mini" aria-hidden="true"></span> HTML5 &bull; CSS3 &bull; No JavaScript</span>
+        </div>
+        <div class="status-right">
+          <span class="status-item">&copy; 2026 Gopal Mankar</span>
+          <a href="#home" class="back-to-top" aria-label="Back to top of page">
+            Back to Top &uarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
