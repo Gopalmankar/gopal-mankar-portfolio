@@ -1,46 +1,61 @@
+# Gopal Mankar
+
+### Computer Science Engineering Student | Aspiring Software Developer
+
+*Learning by building. Growing one project at a time.*
+
 <div align="center">
 
-Gopal Mankar | Personal Portfolio
-A little about me, what I’m learning, and what I’m building.
-
-
-
+[**Explore My Portfolio →**](https://gopalmankar.github.io/gopal-mankar-portfolio/)
 
 </div>
 
-👋 About the Project
-I built this personal portfolio to introduce myself and bring my skills, projects, and achievements together in one place. It’s also a hands-on project that helped me practise the basics of building and styling websites with HTML and CSS.
-✨ What’s Inside
-- Introduction — a quick overview of who I am.
-- Skills — the technical skills I’m learning and working with.
-- Projects — a place to explore my work.
-- Contact — information for getting in touch.
-- Responsive layout — styling designed to adapt to different screen sizes.
-🧰 Built With
-Technology	How I used it
-HTML5	Structure and content of the website
-CSS3	Styling, spacing, and visual design
-Flexbox & Grid	Page layout and alignment
-GitHub Pages	Hosting the live website
+---
 
+## A Little About Me
 
-🚀 View or Run Locally
-View the live website:
-👉 https://gopalmankar.github.io/gopal-mankar-portfolio/
+Hi! I'm Gopal, a Computer Science Engineering student interested in web development and software engineering. I created this portfolio to introduce myself, share my projects, and bring my learning journey together in one place.
 
-To view the project on your own computer:
-1. Clone this repository:
+## Explore the Website
+
+- **About Me** — a short introduction.
+- **Skills** — technical skills I'm learning and practising.
+- **Projects** — a place to showcase my work.
+- **Contact** — ways to connect with me.
+
+## Built With
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+
+I used HTML5 to structure the website, CSS3 to style the layout, and GitHub Pages to publish it online.
+
+## Visit the Live Website
+
+🌐 [**gopalmankar.github.io/gopal-mankar-portfolio**](https://gopalmankar.github.io/gopal-mankar-portfolio/)
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
    git clone https://github.com/Gopalmankar/gopal-mankar-portfolio.git
+   ```
+
 2. Open the project folder.
-3. Open index.html in your browser.
-🎯 What I Learned
-Working on this project gave me practical experience with structuring a webpage, styling layouts with CSS, organising content into clear sections, and publishing a website with GitHub Pages.
-👨‍💻 About Me
-Gopal Mankar
-Computer Science Engineering student interested in software development and building useful projects.
-- GitHub: @Gopalmankar
-- LinkedIn: Connect with me
+3. Open `index.html` in your browser.
+
+## What I Learned
+
+This project gave me practical experience with HTML structure, CSS styling, page layouts, and website deployment. I'll continue improving it as I learn more about web development.
+
+---
+
 <div align="center">
 
-Thanks for stopping by!
+### Let's Connect
+
+[GitHub](https://github.com/Gopalmankar) · [LinkedIn](https://www.linkedin.com/in/gopal-mankar25519821/)
+
+*Thanks for visiting. Feel free to explore my work!*
+
 </div>
