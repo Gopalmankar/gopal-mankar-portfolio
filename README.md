@@ -29,6 +29,18 @@ Hi! I'm Gopal, a Computer Science Engineering student interested in web developm
 
 I used HTML5 to structure the website, CSS3 to style the layout, and GitHub Pages to publish it online.
 
+## 📸 Website Preview
+
+### Desktop View
+
+![Desktop preview of my portfolio](desktop-preview.png)
+
+### Mobile View
+
+![Mobile preview of my portfolio](mobile-preview.jpeg)
+
+[🌐 Visit the Live Website](https://gopalmankar.github.io/gopal-mankar-portfolio/)
+
 ## Visit the Live Website
 
 🌐 [**gopalmankar.github.io/gopal-mankar-portfolio**](https://gopalmankar.github.io/gopal-mankar-portfolio/)
